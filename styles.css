@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    background: grey;
+    font-family: sans-serif;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.input-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 0;
+}
+
+.input-container---size {
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.input-container input {
+    margin: 0 10px;
+    width: 30%;
+}
+
+
+#image-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#image-container img {
+    width: 30%;
+    background: antiquewhite;
+    margin-bottom: 20px;
+}
